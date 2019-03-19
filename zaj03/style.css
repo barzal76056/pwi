@@ -1,21 +1,63 @@
-header
+header.naglowek
 {
+text-align:center;
 background-color: blue;
+border-radius: 20px; 
+font-size: 25px;
+
 }
 #kolor1
 {
 background-color: red;
 }
+li {
+	display: inline-block;
+	width: 32%;
+	font-size:20px;
+	text-align:center;
+	list-style-type: none;
+	
+}
+a
+{
+	text-decoration: none;
+	display:inline-block;
+	
+}
+a:hover
+{
+	background-color:#A52A2A
+}
+
+main
+{
+	display:flex;
+}
 .article 
 {
 background-color: yellow;
 }
-aside {
-background-color: aqua;
+
+.aside {
+background-color: aqua;	
 }
+
 .footer {
 background-color: pink;
+text-align:center;
 }
+
+.elo {
+flex: 1;
+}
+.siema {
+flex: 2;
+}
+body {
+	margin:0;
+	padding:0;	
+}
+
 
 
 
